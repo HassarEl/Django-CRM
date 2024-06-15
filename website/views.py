@@ -24,7 +24,6 @@ def home(request):
     else:
         return render(request, 'home.html', {'records':records})
 
-
 def logout_user(request):
     logout(request)
     messages.success(request, 'You Have Been Logged Out...')
