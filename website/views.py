@@ -46,3 +46,15 @@ def register_user(request):
         return render(request, 'register.html', {'form':form})
     
     return render(request, 'register.html', {'form':form})
+
+def produit(request):
+    return render (request, 'produit.html')
+
+def affectation(request):
+    return render(request, 'prod_categorie.html')
+
+def categorie(request):
+    return render(request, 'categorie/categorie.html')
+
+def add_ctgr(request):
+    return render(request, 'categorie/create_ctgr.html')
