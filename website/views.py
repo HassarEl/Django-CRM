@@ -48,13 +48,19 @@ def register_user(request):
     return render(request, 'register.html', {'form':form})
 
 def produit(request):
-    return render (request, 'produit.html')
+    return render (request, 'produits/produit.html')
 
 def affectation(request):
-    return render(request, 'prod_categorie.html')
+    return render(request, 'produits/prod_categorie.html')
 
 def categorie(request):
-    return render(request, 'categorie/categorie.html')
+    return render(request, 'categories/categorie.html')
 
 def add_ctgr(request):
-    return render(request, 'categorie/create_ctgr.html')
+    return render(request, 'categories/create_ctgr.html')
+
+def commande(request):
+    return render(request, 'commandes/commande.html')
+
+def stock(request):
+    return render(request, 'stock/stock.html')

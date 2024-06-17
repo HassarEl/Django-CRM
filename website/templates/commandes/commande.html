@@ -28,7 +28,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Categories</h1>
+            <h1 class="m-0">Commandes</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -49,18 +49,19 @@
           <div class="col-12">
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">Liste Des Categories</h3>
+                <h3 class="card-title">Liste Des Commandes</h3>
               </div>
               <!-- /.card-header -->
               <div class="card-body">
                 <table id="example2" class="table table-bordered table-hover">
                   <thead>
                   <tr>
-                    <th>Rendering engine</th>
-                    <th>Browser</th>
-                    <th>Platform(s)</th>
-                    <th>Engine version</th>
-                    <th>CSS grade</th>
+                    <th>N° Commande</th>
+                    <th>Client</th>
+                    <th>Produit</th>
+                    <th>Qte version</th>
+                    <th>Prix</th>
+                    <th style="width:160px">Action</th>
                   </tr>
                   </thead>
                   <tbody>
@@ -72,6 +73,13 @@
                     <td>Win 95+</td>
                     <td> 4</td>
                     <td>X</td>
+                    <td>
+                      <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn btn-secondary">View</button>
+                        <button type="button" class="btn btn-primary">Modifier</button>
+                        <button type="button" class="btn btn-danger">Supprimer</button>
+                      </div>
+                    </td>
                   </tr>
                   <tr>
                     <td>Other browsers</td>
@@ -79,6 +87,13 @@
                     <td>-</td>
                     <td>-</td>
                     <td>U</td>
+                    <td>
+                      <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn btn-secondary">View</button>
+                        <button type="button" class="btn btn-primary">Modifier</button>
+                        <button type="button" class="btn btn-danger">Supprimer</button>
+                      </div>
+                    </td>
                   </tr>
                   </tbody>
                   <tfoot>
@@ -88,6 +103,7 @@
                     <th>Platform(s)</th>
                     <th>Engine version</th>
                     <th>CSS grade</th>
+                    <th>Action</th>
                   </tr>
                   </tfoot>
                 </table>

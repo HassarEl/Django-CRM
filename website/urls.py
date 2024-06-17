@@ -10,7 +10,9 @@ urlpatterns = [
     path('produit/', views.produit, name='produit'),
     path('affectation/', views.affectation, name='affectation'),
     path('categorie', views.categorie, name='categorie'),
-    path('create_categorie', views.add_ctgr, name='crete_categorie')
+    path('create_categorie', views.add_ctgr, name='crete_categorie'),
+    path('commande/', views.commande, name='commande'),
+    path('stock', views.stock, name="stock")
 
 
 ]
