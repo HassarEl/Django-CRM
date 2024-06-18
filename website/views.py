@@ -50,8 +50,8 @@ def register_user(request):
 def produit(request):
     return render (request, 'produits/produit.html')
 
-def affectation(request):
-    return render(request, 'produits/prod_categorie.html')
+def add_produit(request):
+    return render(request, 'produits/add_produit.html')
 
 def categorie(request):
     return render(request, 'categories/categorie.html')
