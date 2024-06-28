@@ -12,7 +12,8 @@ urlpatterns = [
     path('categorie', views.categorie, name='categorie'),
     path('create_categorie', views.add_ctgr, name='crete_categorie'),
     path('commande/', views.commande, name='commande'),
-    path('stock', views.stock, name="stock")
+    path('stock', views.stock, name="stock"),
+    #path('test/', views.home, name='home')
 
 
 ]
